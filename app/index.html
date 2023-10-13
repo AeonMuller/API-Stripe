@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Planes de Suscripción</title>
+</head>
+<body>
+    <h1>Planes de Suscripción</h1>
+    <div class="subscription-plans">
+        <div class="subscription-plan">
+            <h2>Plan Básico</h2>
+            <p>Precio: $10/mes</p>
+            <button class="subscribe-button" data-plan="basico">Suscribirse</button>
+        </div>
+        <div class="subscription-plan">
+            <h2>Plan Estándar</h2>
+            <p>Precio: $20/mes</p>
+            <button class="subscribe-button" data-plan="estandar">Suscribirse</button>
+        </div>
+        <div class="subscription-plan">
+            <h2>Plan Premium</h2>
+            <p>Precio: $30/mes</p>
+            <button class="subscribe-button" data-plan="premium">Suscribirse</button>
+        </div>
+    </div>
+    <div id="subscription-form" class="hidden">
+        <h2>Completa tus datos de suscripción</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

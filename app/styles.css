@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.subscription-plans {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.subscription-plan {
+    border: 1px solid #333;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.subscribe-button {
+    background-color: #0074cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#subscription-form {
+    display: none;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
